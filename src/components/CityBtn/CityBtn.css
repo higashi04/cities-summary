@@ -1,0 +1,23 @@
+.btnCity {
+    width: 10vw !important;
+    border: #e9edc9 solid black;
+    border-radius: 10px;
+    background-color:  #264653;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.btnCity:hover{ 
+    cursor: pointer;
+    background-color: #2a9d8f;
+}
+
+@media only screen and (max-width: 480px) {
+    .btnCity {
+        width: 13vw !important;
+        font-size: 0.5rem;
+        padding: 3px;
+    }
+}

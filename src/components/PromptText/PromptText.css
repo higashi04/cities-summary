@@ -1,0 +1,38 @@
+#promptContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#promptData {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+#promptTitle {
+    background-color: #dda15e;
+    width: 35vw;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#promptParagraph{
+    width: 70vw;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    /* margin-right: 580px; */
+    background-color: #dda15e;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#promptMapBoxElement {
+    height: 30vh;
+}
